@@ -1,0 +1,33 @@
+{
+  "name": "strangewolflive",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "clean": "rimraf dist",
+    "publish": "node scripts/publish-pages.js",
+    "deploy": "npm-run-all clean build publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:strangewolflive/strangewolflive.git"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.32",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.5",
+    "gh-pages": "^3.2.3",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.10"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.0-beta.8",
+    "sass": "^1.43.3"
+  }
+}

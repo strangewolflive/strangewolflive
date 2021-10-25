@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "ES6",
+      "baseUrl": "./",
+      "moduleResolution": "Node",
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "composite": false,
+      "incremental": false,
+      "rootDir": "./src",
+      "outDir": "../dist",
+      "jsx": "react-jsx",
+      "module": "ESNext",
+      "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["./node_modules"]
+}
